@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Chi Tiết - Phòng Khám ABC</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="contact-info d-flex align-items-center me-4">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <div>
+                                <small class="d-block">Hotline</small>
+                                <strong>(012) 345 6789</strong>
+                            </div>
+                        </div>
+                        <div class="contact-info d-flex align-items-center">
+                            <i class="fas fa-envelope me-2"></i>
+                            <div>
+                                <small class="d-block">Email</small>
+                                <strong>info@phongkhamabc.com</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="working-hours me-4">
+                            <i class="far fa-clock me-2"></i>
+                            <span>Giờ làm việc: 8:00 - 17:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.php">
+                <div class="logo-wrapper me-3">
+                    <i class="fas fa-hospital text-primary"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="fw-bold d-block">Phòng Khám ABC</span>
+                    <small class="text-muted">Chăm sóc sức khỏe toàn diện</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#services">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#doctors">Bác sĩ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#about">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php#news">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#contact">Liên hệ</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary btn-lg d-flex align-items-center" href="index.php#booking">
+                            <i class="far fa-calendar-alt me-2"></i>
+                            Đặt lịch ngay
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Detail Section -->
+    <section class="news-detail-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <article class="news-detail">
+                        <div class="news-header mb-4">
+                            <h1 class="news-title">Tầm Quan Trọng Của Khám Sức Khỏe Định Kỳ</h1>
+                            <div class="news-meta d-flex align-items-center mb-3">
+                                <span class="me-3"><i class="far fa-user me-2"></i>Admin</span>
+                                <span class="me-3"><i class="far fa-calendar me-2"></i>01 Tháng 3, 2024</span>
+                                <span class="me-3"><i class="far fa-comments me-2"></i>6 Comments</span>
+                                <span><i class="far fa-folder me-2"></i>Sức khỏe cộng đồng</span>
+                            </div>
+                        </div>
+
+                        <div class="news-featured-image mb-4">
+                            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded" alt="Featured Image">
+                        </div>
+
+                        <div class="news-content">
+                            <h2>Giới Thiệu</h2>
+                            <p>Khám sức khỏe định kỳ là một phần quan trọng trong việc duy trì và bảo vệ sức khỏe. Việc phát hiện sớm các vấn đề sức khỏe có thể giúp điều trị hiệu quả và ngăn ngừa các biến chứng nghiêm trọng. Bài viết này sẽ giải thích lý do tại sao bạn nên khám sức khỏe định kỳ và các xét nghiệm cần thiết.</p>
+
+                            <h2>Tại Sao Cần Khám Sức Khỏe Định Kỳ?</h2>
+                            <p>Khám sức khỏe định kỳ mang lại nhiều lợi ích, bao gồm:</p>
+                            <ul>
+                                <li>Phát hiện sớm các bệnh lý tiềm ẩn như tiểu đường, cao huyết áp, và ung thư.</li>
+                                <li>Đánh giá tình trạng sức khỏe tổng quát và đưa ra lời khuyên phù hợp.</li>
+                                <li>Giúp xây dựng lối sống lành mạnh dựa trên kết quả kiểm tra.</li>
+                            </ul>
+
+                            <h2>Các Xét Nghiệm Cần Thiết</h2>
+                            <p>Một số xét nghiệm thường được khuyến nghị trong khám sức khỏe định kỳ:</p>
+                            <ul>
+                                <li><strong>Xét nghiệm máu:</strong> Kiểm tra đường huyết, mỡ máu, chức năng gan và thận.</li>
+                                <li><strong>Đo huyết áp:</strong> Phát hiện nguy cơ cao huyết áp.</li>
+                                <li><strong>Điện tâm đồ (ECG):</strong> Đánh giá sức khỏe tim mạch.</li>
+                                <li><strong>Xét nghiệm tầm soát ung thư:</strong> Như nội soi dạ dày, chụp X-quang phổi, hoặc xét nghiệm PAP smear (đối với phụ nữ).</li>
+                            </ul>
+
+                            <h2>Tần Suất Khám Sức Khỏe</h2>
+                            <p>Tùy thuộc vào độ tuổi và tình trạng sức khỏe, tần suất khám có thể khác nhau:</p>
+                            <ul>
+                                <li>Người dưới 40 tuổi: 1-2 năm/lần.</li>
+                                <li>Người trên 40 tuổi: 6 tháng đến 1 năm/lần.</li>
+                                <li>Người có bệnh lý nền: Theo chỉ định của bác sĩ.</li>
+                            </ul>
+
+                            <h2>Lời Khuyên Thực Tế</h2>
+                            <p>Để chuẩn bị cho buổi khám sức khỏe định kỳ:</p>
+                            <ul>
+                                <li>Chuẩn bị danh sách các triệu chứng hoặc câu hỏi cho bác sĩ.</li>
+                                <li>Nhịn ăn trước khi làm xét nghiệm máu (nếu được yêu cầu).</li>
+                                <li>Ghi lại tiền sử bệnh lý cá nhân và gia đình.</li>
+                            </ul>
+
+                            <div class="news-tags mt-4">
+                                <h4>Tags:</h4>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Khám sức khỏe</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Sức khỏe cộng đồng</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Phòng bệnh</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Xét nghiệm</a>
+                            </div>
+                        </div>
+
+  
+
+                     

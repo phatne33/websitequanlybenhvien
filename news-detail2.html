@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Chi Tiết - Phòng Khám ABC</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="contact-info d-flex align-items-center me-4">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <div>
+                                <small class="d-block">Hotline</small>
+                                <strong>(012) 345 6789</strong>
+                            </div>
+                        </div>
+                        <div class="contact-info d-flex align-items-center">
+                            <i class="fas fa-envelope me-2"></i>
+                            <div>
+                                <small class="d-block">Email</small>
+                                <strong>info@phongkhamabc.com</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="working-hours me-4">
+                            <i class="far fa-clock me-2"></i>
+                            <span>Giờ làm việc: 8:00 - 17:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.php">
+                <div class="logo-wrapper me-3">
+                    <i class="fas fa-hospital text-primary"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="fw-bold d-block">Phòng Khám ABC</span>
+                    <small class="text-muted">Chăm sóc sức khỏe toàn diện</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Bác sĩ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Liên hệ</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary btn-lg d-flex align-items-center" href="index.php">
+                            <i class="far fa-calendar-alt me-2"></i>
+                            Đặt lịch ngay
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Detail Section -->
+    <section class="news-detail-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <article class="news-detail">
+                        <div class="news-header mb-4">
+                            <h1 class="news-title">Chế Độ Dinh Dưỡng Cho Người Cao Tuổi</h1>
+                            <div class="news-meta d-flex align-items-center mb-3">
+                                <span class="me-3"><i class="far fa-user me-2"></i>Admin</span>
+                                <span class="me-3"><i class="far fa-calendar me-2"></i>10 Tháng 3, 2024</span>
+                                <span class="me-3"><i class="far fa-comments me-2"></i>3 Comments</span>
+                                <span><i class="far fa-folder me-2"></i>Dinh dưỡng</span>
+                            </div>
+                        </div>
+
+                        <div class="news-featured-image mb-4">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded" alt="Featured Image">
+                        </div>
+
+                        <div class="news-content">
+                            <h2>Giới Thiệu</h2>
+                            <p>Chế độ dinh dưỡng hợp lý là yếu tố quan trọng giúp người cao tuổi duy trì sức khỏe, tăng cường sức đề kháng và nâng cao chất lượng cuộc sống. Bài viết này sẽ cung cấp những lời khuyên hữu ích về chế độ ăn uống khoa học dành cho người cao tuổi.</p>
+
+                            <h2>Nguyên Tắc Dinh Dưỡng</h2>
+                            <p>Người cao tuổi cần tuân thủ một số nguyên tắc dinh dưỡng cơ bản để đảm bảo sức khỏe:</p>
+                            <ul>
+                                <li>Ăn đa dạng thực phẩm để cung cấp đầy đủ chất dinh dưỡng.</li>
+                                <li>Hạn chế đồ ăn nhiều đường, muối và chất béo bão hòa.</li>
+                                <li>Tăng cường thực phẩm giàu chất xơ, vitamin và khoáng chất.</li>
+                            </ul>
+
+                            <h2>Các Nhóm Thực Phẩm Nên Sử Dụng</h2>
+                            <p>Một chế độ ăn uống lành mạnh cho người cao tuổi nên bao gồm:</p>
+                            <ul>
+                                <li><strong>Rau củ và trái cây:</strong> Cung cấp vitamin, khoáng chất và chất xơ.</li>
+                                <li><strong>Ngũ cốc nguyên hạt:</strong> Gạo lứt, yến mạch, bánh mì nguyên cám.</li>
+                                <li><strong>Protein chất lượng cao:</strong> Thịt nạc, cá, đậu hũ, trứng.</li>
+                                <li><strong>Sản phẩm từ sữa ít béo:</strong> Sữa, sữa chua, phô mai.</li>
+                            </ul>
+
+                            <h2>Những Lưu Ý Quan Trọng</h2>
+                            <p>Khi xây dựng chế độ dinh dưỡng, cần lưu ý:</p>
+                            <ul>
+                                <li>Chia nhỏ bữa ăn, ăn 3-5 bữa mỗi ngày để hỗ trợ tiêu hóa.</li>
+                                <li>Uống đủ nước (1.5-2 lít mỗi ngày).</li>
+                                <li>Tham khảo ý kiến bác sĩ dinh dưỡng nếu có bệnh lý nền.</li>
+                            </ul>
+
+                            <h2>Lời Khuyên Thực Tế</h2>
+                            <p>Để duy trì chế độ ăn uống lành mạnh, người cao tuổi nên:</p>
+                            <ul>
+                                <li>Ăn uống đúng giờ, tránh bỏ bữa.</li>
+                                <li>Kết hợp vận động nhẹ nhàng như đi bộ, yoga.</li>
+                                <li>Tránh sử dụng thực phẩm chế biến sẵn hoặc đồ ăn nhanh.</li>
+                            </ul>
+
+                            <div class="news-tags mt-4">
+                                <h4>Tags:</h4>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Dinh dưỡng</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Người cao tuổi</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Sức khỏe</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Chế độ ăn uống</a>
+                            </div>
+                        </div>
+
+                        <!-- Author Box -->
+                        
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
